@@ -1,0 +1,2 @@
+Q:PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException
+A:mvn clean install -Dmaven.wagon.http.ssl.insecure=true -Dmaven.wagon.http.ssl.allowall=true
