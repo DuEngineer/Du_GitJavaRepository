@@ -1,2 +1,4 @@
-Q:PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException
-A:mvn clean install -Dmaven.wagon.http.ssl.insecure=true -Dmaven.wagon.http.ssl.allowall=true
+1、Q:PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException
+   A:mvn clean install -Dmaven.wagon.http.ssl.insecure=true -Dmaven.wagon.http.ssl.allowall=true
+2、Q:SSL certificate problem: unable to get local issuer certificate
+   A:git config --global http.sslVerify false
